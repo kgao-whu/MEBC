@@ -23,11 +23,11 @@ The data is obtained from [SNAP](http://snap.stanford.edu/data/index.html),[KONE
 
 2.Next, the network data set will be imported into FANMOD, depending on the network size, the running time will vary. Finally, you will get detailed network motif description, including type and Z-score value. The result is as follows：
 
-<img src="..\pic\pic1.png" alt="drawing" width="400"/>
+<img src="pic\pic1.png" alt="drawing" width="400"/>
 
 3.The motif with the largest z-score value is selected as the target motif, and the motif_computation function is called according to the calculation formula of the adjacency matrix of the motif. Because the time complexity of matrix calculation is very large, and the calculation efficiency of python is not as good as that of C and matlab, the calculation of the adjacency matrix of the motif of a larger network is run on matlab, using the weighing.m file. 
 
-<img src="..\pic\pic2.png" alt="drawing" width="400"/>
+<img src="pic\pic2.png" alt="drawing" width="400"/>
 
 4.The obtained directed graph based on the motif is calculated using the edge betweenness centrality algorithm.
 
