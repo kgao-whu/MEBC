@@ -1,0 +1,83 @@
+FANMOD 1.1 subgraph enumeration
+-------------------------------
+
+Network name: /Users/gaokuang/coding/CNetworks/CNetworks/AAAI_alg/dataset/blogs-weight.txt
+Network type: Directed
+Number of nodes: 1225
+Number of edges: 16715
+Number of single edges: 14408
+Number of mutual edges: 2307
+
+Algorithm: enumeration
+Subgraph size: 3
+
+Generated 700 random networks
+   with locally constant number of bidirectional edges,
+   3 exchanges per edge and 3 tries per edge.
+
+1139439 subgraphs were enumerated in the original network.
+861273708 subgraphs were enumerated in the random networks.
+862413147 subgraphs were enumerated in all networks.
+
+For the random networks: 54202044 tries were made, 32116400 were successful.
+Randomization took 83.46 seconds.
+Enumeration took 778.47 seconds.
+
+
+Result overview:
+
+  ID Adj   Frequency     Mean-Freq  Standard-Dev    Z-Score  p-Value
+          [Original]      [Random]      [Random]
+
+  36 000     42.252%       41.245%    0.00018088     55.665        0
+     100
+     100
+
+   6 000     14.631%       16.105%    0.00020556    -71.705        1
+     000
+     110
+
+  12 000     12.005%       12.665%    0.00024196    -27.259        1
+     001
+     100
+
+ 164 010     10.703%       12.273%    0.00024717    -63.517        1
+     100
+     100
+
+  14 000      8.318%       9.1861%      0.000237    -36.625        1
+     001
+     110
+
+  38 000     4.3063%       2.4468%    0.00031425     59.174        0
+     100
+     110
+
+  78 001     3.2224%       4.0092%    0.00018036    -43.627        1
+     001
+     110
+
+ 166 010      1.512%      0.38586%    0.00011262     99.993        0
+     100
+     110
+
+  46 000     1.4275%      0.74679%    0.00014144     48.129        0
+     101
+     110
+
+ 174 010    0.94643%      0.57833%     0.0001333     27.615        0
+     101
+     110
+
+ 102 001     0.3686%      0.30707%    9.5274e-05     6.4586        0
+     100
+     110
+
+ 238 011    0.26469%    0.0028142%    6.7116e-05     39.019        0
+     101
+     110
+
+ 140 010   0.042214%     0.048595%    3.0838e-05    -2.0693     0.98
+     001
+     100
+
