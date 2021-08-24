@@ -1,4 +1,15 @@
-# Instruction
+# MEBC
+Python implementation of the method proposed in
+MEBC: Social Network Immunization via Motif-based Edge-Betweenness Centrality
+
+## Requirements
+The implementation is tested under Python 3.8, with the folowing packages installed:
+- `networkx==2.5.1`
+- `numpy==1.19.5`
+- `ndlib==5.1.0`
+
+
+## Instruction
 
 ********************************
 The data is obtained from [SNAP](http://snap.stanford.edu/data/index.html),[KONECT](http://konect.uni-koblenz.de/networks/)  
